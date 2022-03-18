@@ -19,8 +19,6 @@ ListNode* newNode(int data){
     return temp;
 }
 
-stack<int> st;
-
 bool isPalindrome(ListNode* head) {
     ListNode* slow = head;
     ListNode* fast = head;
