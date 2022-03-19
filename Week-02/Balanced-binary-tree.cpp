@@ -41,7 +41,7 @@ pair<bool, int> dfs(TreeNode* root){
     // (Left subtree, Right subtree) = Balanced, and Diff. between height of these subtree <=1  
     bool balanced = (left.first && right.first && abs(left.second-right.second) <= 1);
 
-    // Parent node height is the max of either the left or the right subtree (+ 1 because we keeping left node height = 0)
+    // Parent node height is the max of either the left or the right subtree (+ 1 because we keeping leaf node height = 0)
     int treeHeight = max(left.second, right.second) + 1;
 
     pair<bool, int> ret = make_pair(balanced, treeHeight);
