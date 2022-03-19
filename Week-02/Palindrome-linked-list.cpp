@@ -2,7 +2,7 @@
 // Difficulty: Easy
 // Runtime: 364 ms, faster than 34.84% of C++ online submissions for Palindrome Linked List.
 // Memory Usage: 114.1 MB, less than 72.35% of C++ online submissions for Palindrome Linked List
-// g++ -std=c++11 -o your-output_exe-name source_file.cpp
+// g++ -std=c++17 -o your-output_exe-name source_file.cpp
 
 #include<bits/stdc++.h>
 using namespace std;
