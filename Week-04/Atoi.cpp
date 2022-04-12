@@ -1,4 +1,4 @@
-// Problem Name: String to Integer (atoi)
+// Problem Name: String To Integer (atoi)
 // Difficulty: Medium
 // Runtime: 8 ms, faster than 25.81% of C++ online submissions for String to Integer (atoi).
 // Memory Usage: 7.3 MB, less than 7.60% of C++ online submissions for String to Integer (atoi).
